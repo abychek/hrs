@@ -1,6 +1,6 @@
 employees:
   build: ./employees
   volumes:
-    - "./:/usr/app/employees"
+    - "./employees/:/usr/src/app/employees"
   ports:
     - "3000:3000"
